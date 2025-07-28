@@ -46,7 +46,7 @@ body {
   display: inline-block;
   width: 25px;
   height: 18px;
-  background-image: url('../assets/icon.png');
+  background-image: url('assets/icon.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
