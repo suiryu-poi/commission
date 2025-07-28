@@ -1,7 +1,7 @@
 /* 全体背景とフォント */
 body {
   font-family: "ノスタルドット（M+）", sans-serif;
-  background-image: url("../assets/background.png");
+  background-image: url("assets/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
