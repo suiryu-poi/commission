@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>commission</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="browser-window">
+
+    <!-- 🟦 Chrome風タブ部分 -->
+    <div class="window-bar">
+      <div class="tab active-tab">
+        <span class="tab-icon"></span>
+        <span class="tab-title">TOP</span>
+        <span class="tab-close">×</span>
+      </div>
+      <button class="tab-add">＋</button>
+    </div>
+
+    <!-- 🔷 URLバー -->
+    <div class="browser-toolbar">
+      <div class="url-box">
+        <input type="text" value="https://commission.com" readonly>
+        <span class="bookmark">☆</span>
+      </div>
+    </div>
+
+    <!-- 🔷 トップバナー -->
+    <div class="top-banner">
+      <img src="assets/23942899.jpg" alt="バナー" />
+    </div>
+
+    <!-- 🔶 コンテンツ部分 -->
+      <div class="text-box">
+        <p>現在の依頼件数：0件 / 納期：8月中</p>
+      </div>
+
+      <div class="text2-box">
+        <p class="text2-box-text">⚠️ 必ずお読みください ⚠️</p>
+        <p class="text2-box-text2">・依頼料を相場よりお安く設定している代わりに、納品後はメンション付き(@suiryu__poi)で宣伝・告知の投稿を必ずお願いします。</p>
+        <p class="text2-box-text2">・グッズ化、収益化等の商用利用の制限はありませんが、著作権の放棄は致しません。</p>
+        <p class="text2-box-text2">・AI学習、自作発言、過度な加工、本来の意図と違った使用、常識の範囲外の行為等は禁止です。</p>
+        <p class="text2-box-text2">・ラフ確定後の大幅な変更は行っておりませんので、希望する場合は別途料金を頂く可能性があります。</p>
+        <p class="text2-box-text2">・ご依頼が重なっている場合や、こちらの体調と精神状態により、納期が延びることがあります。ご了承ください。</p>
+        <p class="text2-box-text2">・納品形式はご依頼内容によって変動します。ご希望のサイズや形式がありましたら事前にご相談ください。(PDF納品はオプション料金がかかります。)</p>
+      </div>
+
+    <!-- 横並びの新しいグループ -->
+      <div class="split-group">
+        <!-- 左側ボックス -->
+        <div class="left-box">
+
+          <!-- 🔹 追加したい上側のボックス -->
+          <button id="popupTrigger" class="left-upper-link">
+                    ⭐依頼のご連絡はこちらをClick
+          </button>
+          <p class="left-upper-note">
+            ✨リピーター割 導入！✨<br>2回目以降のご依頼は10％OFF！
+          </p>
+
+          <!-- ポップアップオーバーレイ -->
+          <div id="popupOverlay" class="popup-overlay" style="display:none;">
+            <div class="popup-content">
+                  <p class="popup-text">ご確認いただいた注意事項に同意しますか？</p>
+                  <button id="agreeButton" class="agree-button">同意する</button>
+                  <button id="disagreeButton" class="disagree-button">同意しない</button>
+            </div>
+          </div>
+
+          <a href="https://x.com/suiryu__poi" class="left-text-box" target="_blank" rel="noopener noreferrer">
+            X(Twitter)
+          </a>
+          <a href="https://meitei-book.booth.pm/" class="left-text-box" target="_blank" rel="noopener noreferrer">
+            BOOTH(シナリオや素材配布)
+          </a>
+          <a href="https://marshmallow-qa.com/w24u715pzfnvwob?t=o2QpwC&utm_medium=url_text&utm_source=promotion" class="left-text-box" target="_blank" rel="noopener noreferrer">
+            マシュマロ(感想や不具合報告)
+          </a>
+          <a href="https://www.youtube.com/@suiryu_poi" class="left-text-box" target="_blank" rel="noopener noreferrer">
+            Youtube
+          </a>
+        </div>
+
+        <!-- 右側ボックス -->
+        <div class="right-box">
+          <div class="right-text-box">
+            <p>💜 各プラン・料金詳細 💜</p>
+          </div>
+
+          <!-- 1つ目のプラン -->
+          <div class="right-note-wrapper">
+            <p class="right-note-text">TRPG立ち絵プラン ￥16,000</p>
+            <p class="right-note-text2">表情差分が5つ付いた全身立ち絵+サンプル用画像がセットのプラン</p>
+            <div class="slideshow">
+              <img src="assets/TRPGプランサンプル.png" alt="プラン画像" class="right-note-image" />
+          </div>
+        </div>
+          <!-- ここまで追加 -->
+
+          <!-- 2つ目のプラン -->
+          <div class="right-note-wrapper">
+            <p class="right-note-text">⭐追加オプション</p>
+            <p class="right-note-text2">・PSD納品　￥1,500</p>
+            <p class="right-note-text2">・衣装差分　￥5,000　※ポーズ等は元のイラスト固定</p>
+          </div>
+          <!-- ここまで追加 -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
