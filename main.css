@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'ノスタルドット';
+  src: url('ノスタルドット.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 全体背景とフォント */
 body {
-  font-family: "ノスタルドット（M+）", sans-serif;
+  font-family: "ノスタルドット", sans-serif;
   background-image: url("assets/background.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -74,7 +81,7 @@ body {
   cursor: default;
   background: none;
   border: none;
-  font-family: "ノスタルドット（M+）", sans-serif;
+  font-family: "ノスタルドット", sans-serif;
   font-size: 25px;
   color: #FFFFFF;
   padding: 4px 8px;
@@ -106,7 +113,7 @@ body {
   outline: none;
   background: transparent;
   color: #D9B4E4;
-  font-family: "ノスタルドット（M+）", sans-serif;
+  font-family: "ノスタルドット", sans-serif;
   user-select: none;
   pointer-events: none;
 }
@@ -149,7 +156,7 @@ body {
   padding: 16px;
   margin: 20px auto;
   color: #4A275F;
-  font-family: "ノスタルドット（M+）", sans-serif;
+  font-family: "ノスタルドット", sans-serif;
   box-shadow: 2px 2px 0 #C591DC;
   text-align: center;
 }
@@ -237,7 +244,7 @@ body {
 }
 
 .left-upper-link {
-  font-family: "ノスタルドット（M+）", sans-serif;
+  font-family: "ノスタルドット", sans-serif;
   background: #FFDBF1;
   border: 2px solid #DCAFEA;
   border-radius: 6px;
@@ -262,7 +269,7 @@ body {
   border: 2px solid #DCAFEA;
   border-radius: 6px;
   padding: 20px;
-  margin-bottom: 25px; /* ← ここはちょっとだけ余白 */
+  margin-bottom: 10px; /* ← ここはちょっとだけ余白 */
   text-align: center;
   color: #4A275F;
   font-size: 18px;
@@ -369,7 +376,7 @@ body {
 }
 
 .agree-button {
-  font-family: "ノスタルドット（M+）", sans-serif;
+  font-family: "ノスタルドット", sans-serif;
   background-color: #8b5cf6;
   color: white;
   border: none;
@@ -385,7 +392,7 @@ body {
 }
 
 .disagree-button {
-  font-family: "ノスタルドット（M+）", sans-serif;
+  font-family: "ノスタルドット", sans-serif;
   background-color: #e0e0e0;
   color: #555;
   border: none;
@@ -401,7 +408,7 @@ body {
 }
 
 #closeButton {
-  font-family: "ノスタルドット（M+）", sans-serif;
+  font-family: "ノスタルドット", sans-serif;
   padding: 8px 16px;
   background-color: #888;
   color: #fff;
