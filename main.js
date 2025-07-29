@@ -28,7 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   function renderConfirmation() {
     popupContent.innerHTML = `
-      <p class="popup-text">✅ 同意ありがとうございます！以下にご連絡ください。<br>DiscordID myenro_vtuber</p>
+      <p class="popup-text">✅ 同意ありがとうございます！以下にご連絡ください。<br>DiscordID suiryu_poi</p>
       <button id="closeButton">閉じる</button>
     `;
 
